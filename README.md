@@ -1,2 +1,2 @@
-# InstallScripts
-Installation Scripts
+# Installation Scripts
+## Series of scripts to speed up installation
