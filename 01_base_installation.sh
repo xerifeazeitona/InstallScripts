@@ -1,6 +1,5 @@
 #!/bin/bash
 # update mirrorlist, start installation, create filesystem, chroot, install packages
-# Variables
 echo =-=-=-=-=-=-=-=-=
 echo Base Installation
 echo =-=-=-=-=-=-=-=-=
@@ -20,5 +19,5 @@ mkdir -pv /mnt/installation
 cp *.sh /mnt/installation
 echo "Base installation completed!"
 # chroot
-read -p "Press [Enter] key to chroot..."
+read -p "Press [Enter] key to chroot...DON'T forget to passwd root before running the next script!"
 arch-chroot /mnt
